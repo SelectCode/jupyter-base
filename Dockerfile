@@ -19,5 +19,3 @@ RUN pip install jupyterlab \
 
 RUN jupyter labextension install jupyterlab-plotly@4.10.0 @jupyter-widgets/jupyterlab-manager plotlywidget@4.10.0 @jupyter-voila/jupyterlab-preview
 RUN jupyter nbextension enable --py widgetsnbextension
-
-USER root
